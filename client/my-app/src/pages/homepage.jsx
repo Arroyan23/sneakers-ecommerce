@@ -3,6 +3,7 @@ import { ImagePoster } from "../components/homepage/bigposter";
 import { CardSale } from "../components/homepage/cardsale";
 import { DiscountData } from "../components/homepage/discountData";
 import { NavChildren } from "../components/homepage/navchildren";
+import { Poster } from "../components/homepage/poster";
 export const HomePage = () => {
   return (
     <>
@@ -10,7 +11,7 @@ export const HomePage = () => {
       <ImagePoster />
       {/* halaman untuk menampilkan flash sale */}
       <div className="relative">
-        <div className="flex absolute z-50 right-32 -top-20 shadow-2xl">
+        <div className="flex absolute z-50 xl:right-1/4 right-32 -top-20 shadow-2xl">
           <DiscountData />
           <DiscountData />
           <DiscountData />
@@ -24,10 +25,26 @@ export const HomePage = () => {
         {/* navbar sederhana di bagian bawah */}
         <NavChildren />
         {/* halaman untuk bagian card sale dengan batas tertentu dan unik best seller */}
-        <div className="px-8 mt-12">
+        <div className="px-8 mt-12 xl:max-w-[90rem] xl:mx-auto grid grid-cols-4">
+          <CardSale />
+          <CardSale />
+          <CardSale />
+          <CardSale />
+          <CardSale />
+          <CardSale />
+          <CardSale />
           <CardSale />
         </div>
+        {/* menambahkan fungsi load more */}
+        <p className="text-center mt-14 underline text-sky-500">
+          <a href="#">Load More</a>
+        </p>
       </div>
+      {/* untuk halaman poster dengan catatan bisa di edit di dashboard dengan database */}
+      <div className="mt-10">
+        <Poster />
+      </div>
+      {/* halaman bagian services */}
       {/* untuk penanda batas margin top */}
       <div className="mt-96"></div>
     </>
