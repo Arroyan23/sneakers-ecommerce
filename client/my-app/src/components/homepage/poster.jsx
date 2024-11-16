@@ -5,7 +5,7 @@ export const Poster = () => {
   return (
     <>
       <div className="max-w-full bg-blue-400 h-[35rem] flex justify-between relative items-center">
-        <div className="xl:ml-96 text-white">
+        <div className="2xl:ml-96 xl:ml-10  text-white">
           <h1 className="text-5xl max-w-xl font-semibold">
             Adidas Men Running Sneakers
           </h1>
@@ -18,7 +18,7 @@ export const Poster = () => {
             <hr className="max-w-[3rem] border-t-2 mt-1" />
           </h2>
         </div>
-        <div className="absolute right-52 -top-10">
+        <div className="absolute xl:right-10 right-52 -top-10">
           <img src={djemat} alt="" className="transform scale-125 -rotate-12" />
         </div>
       </div>

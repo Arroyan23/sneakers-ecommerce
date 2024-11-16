@@ -12,7 +12,7 @@ export const HomePage = () => {
       <ImagePoster />
       {/* halaman untuk menampilkan flash sale */}
       <div className="relative">
-        <div className="flex absolute z-50 xl:right-1/4 right-32 -top-20 shadow-2xl">
+        <div className="flex absolute z-50 2xl:right-1/4 xl:right-44 -top-20 shadow-2xl">
           <DiscountData />
           <DiscountData />
           <DiscountData />
@@ -37,9 +37,11 @@ export const HomePage = () => {
           <CardSale />
         </div>
         {/* menambahkan fungsi load more */}
-        <p className="text-center mt-14 underline text-sky-500">
-          <a href="#">Load More</a>
-        </p>
+        <div className=" flex justify-center">
+          <p className="text-center mt-14 border-b-2 pb-1 border-sky-500 max-w-fit text-sky-500">
+            <a href="#">Load More</a>
+          </p>
+        </div>
       </div>
       {/* untuk halaman poster dengan catatan bisa di edit di dashboard dengan database */}
       <div className="mt-10">
