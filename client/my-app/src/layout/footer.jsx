@@ -10,8 +10,10 @@ export const Footer = () => {
               <h1>Hello World</h1>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad atque
-              vel amet?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta
+              quas hic a dolor. Ex nihil perferendis dicta dolor amet ab
+              corporis libero! Sequi, omnis debitis tempora aspernatur
+              perferendis iusto officiis.
             </p>
           </div>
         </div>
