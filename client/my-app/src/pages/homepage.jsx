@@ -48,15 +48,10 @@ export const HomePage = () => {
         <Poster />
       </div>
       {/* halaman layanan yang diberikan dari suatu komponen */}
-      <div className=" max-w-md mx-auto xl:max-w-[90rem] mt-14 flex justify-between">
+      <div className=" max-w-md mx-auto xl:max-w-[90rem] px-10 mt-14 flex justify-between">
         <Delivery icon="fa-solid fa-truck" header="FREE SHIPPING" />
         <Delivery icon="fa-solid fa-rotate-right" header="100% REFUND" />
         <Delivery icon="fa-solid fa-person" header="SUPPORT 24/7" />
-      </div>
-      {/* halaman untuk menampilkan news bisa di ubah dengan sesuka hati */}
-      <div className="max-w-[90rem] mx-auto mt-14">
-        <h1 className="text-center text-3xl font-semibold">LATEST NEWS</h1>
-        <div className=""></div>
       </div>
       {/* untuk penanda batas margin top */}
       <div className="mt-96"></div>

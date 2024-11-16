@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const CardSale = () => {
   return (
     <>
-      <div className="flex mt-7 max-w-fit shadow-xl">
+      <div className="flex">
         <div className="bg-slate-300">
           {/* untuk bagian gambar nantinya akan diubah dengan gambar pada database */}
           <img
@@ -38,12 +38,7 @@ export const CardSale = () => {
                 className="text-yellow-400 text-sm"
               />
             </div>
-            {/* halaman untuk monitoring harga terbaru */}
-            <div className="mb-3">
-              <p className="text-md font-semibold text-center text-sky-600 mt-3">
-                Rp 250.000
-              </p>
-            </div>
+            {/* untuk men display harga */}
           </div>
         </div>
       </div>
